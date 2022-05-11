@@ -1,6 +1,6 @@
 body{
     background-color: #FA8BFF;
-    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);        
+    background-color: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
     font-family: sans-serif;
     color: white;
 }
@@ -58,3 +58,30 @@ footer{
 a{
     text-decoration: none;
 }
+
+/*celular*/
+@media screen and (max-width: 801px){
+    body{
+        background-color: #FA8BFF;
+    }
+    html{
+        display: flex;
+    }
+    .section2{
+    align-items: center;
+    display: flow-root;
+    width: auto;
+    }
+    main{
+        display: block;
+    }
+    .estadisticas{
+        text-align: center;
+    }
+    .style-table{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
